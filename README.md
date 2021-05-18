@@ -9,6 +9,7 @@ Here are some trciks I used on my notebook:
 - Model Ensemble: EfficientB4 + Vision Transformer 
 - Test Time Augmentation: I used `TTA=10` for every batch and calculate the mean probability for the result.
 - AMP in pytorch for faster training
+# Hope
 In the competition, I learned a lot of methods for better performance and standard code style from other kaggler's wonderful ideas all over the world.I will keep on reading and learning new technique. Hope I can get better score next time!😃
 
  
