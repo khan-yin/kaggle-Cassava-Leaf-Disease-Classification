@@ -7,7 +7,7 @@ Here are some trciks I used on my notebook:
 - Data Augmentation,I tried some new methods such as mixup, cutmix(but it didn't work well) while using the traditional methods in `torchvision.transforms` and `albumentations`.
 - K-fold cross-validation `k=5`.
 - Model Ensemble: EfficientB4 + Vision Transformer.
-- use Focal Loss(Kaiming He's work) to ease class-imbalance problem.
+- use Focal Loss(Kaiming He's work) to ease class imbalance problem.
 - Test Time Augmentation: I used `TTA=10` for every batch and calculate the mean probability for the result.
 - AMP in pytorch for faster training.
 # Hope
